@@ -1,0 +1,45 @@
+.app {
+    /* margin: 0 auto;
+    width: 50%;
+    height: 100%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    /* gap: 10px; */
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    margin-top: 10px;
+    text-align: center;
+}
+
+input {
+    text-align: center;
+}
+
+.btn {
+    margin: 10px 0;
+    padding: 5px;
+}
+
+.add, .delete {
+    padding: 5px;
+}
+
+.add {
+    margin-right: 10px;
+}
+
+.remaining {
+    text-align: center;
+}
